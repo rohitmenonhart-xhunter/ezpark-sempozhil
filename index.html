@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpost - Parking Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Parking Availability</h1>
+        <div class="parking-status">
+            <div>
+                <h2>Parking A: <span id="parking-a-count">Loading...</span></h2>
+            </div>
+            <div>
+                <h2>Parking B: <span id="parking-b-count">Loading...</span></h2>
+            </div>
+            <div>
+                <h2>Parking C: <span id="parking-c-count">Loading...</span></h2>
+            </div>
+            <div>
+                <h2>Parking D: <span id="parking-d-count">Loading...</span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
